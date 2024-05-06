@@ -1,0 +1,26 @@
+.bg-img{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    /* background-position: center; */
+}
+.container{
+    color: white;
+}
+.navbar-brand{
+    color: blue;
+}
+.navbar-brand:hover{
+    color: blue;
+}
+.form-control{
+    width: 50%;
+}
+.header{
+    margin-top: 5%;
+}
