@@ -1,0 +1,110 @@
+.logo{
+    transform: translateY(-2px);
+    width: 60px;
+    border-radius: 100%;
+    border: 1px solid #eee;
+    /* margin-left: -50px; */
+}
+.login-button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    text-decoration: none;
+    color: black;
+    /* margin-right: -50px; */
+}
+.login-button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+.login-button1{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    left: 80%;
+}
+.login-button1 i{
+    padding: 9px 10px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    color: black;
+}
+.login-button1 i:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+nav {
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+.btn_mod i{
+    padding: 9px 10px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    color: black;
+}
+.btn_mod i:hover{
+    background-color: rgb(5, 160, 5);
+}
+.btn_supp i{
+    padding: 9px 10px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3 ease 0s;
+    color: black;
+}
+.btn_supp i:hover{
+    background-color: rgb(187, 6, 6);
+}
+.nav-link{
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+.nav-link:hover, .nav-link.active{
+    color: #fff;
+}
+@media (min-width: 991px){
+    .nav-link:before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: rgba(0,136,169,1);
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+    .nav-link:hover::before, .nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+.bg-img{
+    height: 110vh;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.container{
+    color: white;
+}
+.form-control{
+    width: 50%;
+}

@@ -1,0 +1,10 @@
+.sidebyside{
+    display: flex;
+    align-items: center;
+}
+.sidebyside h6{
+    margin: 0;
+}
+.sidebyside span{
+    margin-left: 5px;
+}

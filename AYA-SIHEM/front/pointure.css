@@ -1,0 +1,27 @@
+.card-footer{
+    position: relative;
+    z-index: 10;
+}
+#qt{
+    width: 3.6rem;
+    height: 2rem;
+}
+#pt{
+    width: 3.6rem;
+    height: 2rem;
+}
+.counter{
+    width: 40%;
+    margin-left: -15px;
+}
+.counter .add{
+    width:2rem;
+    height: 2rem;
+    position: absolute;
+    top: -80%;
+    right: 1%;
+}
+.counter button{
+    width: 2rem;
+    height: 30px;
+}
